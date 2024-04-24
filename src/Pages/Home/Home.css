@@ -101,7 +101,11 @@ hr{
 
 @media only screen and (max-width: 600px) {
     #company_name{
+        font-size: 50px;
         top: 10vh;
+        position: static;
+        margin: 0px auto;
+        padding: 15px;
     }
     .home{
         background-size: 200%;
