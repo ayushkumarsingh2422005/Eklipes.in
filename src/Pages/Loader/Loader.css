@@ -1,0 +1,51 @@
+.loader{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition-duration: 1s;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.loader::-webkit-scrollbar{
+    display: none;
+}
+.loader > div {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 0 0 50px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition-duration: 1s;
+}
+.loader > div::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    z-index: -1;
+}
+.loader > div > div{
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    box-shadow: inset 0 0 55px white;
+}
+.loader > div > div > div{
+    width: 170px;
+    height: 170px;
+    background-color: black;
+    border-radius: 50%;
+}
