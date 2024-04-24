@@ -10,10 +10,10 @@ export default function Home() {
                 </div>
 
                 <div id='social'>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                    <a href="https://www.instagram.com/the_eklipes?igsh=ZjRnd2QzOXN3b2tj" target="_blank" rel="noopener noreferrer"><div></div></a>
+                    <a href="https://www.linkedin.com/company/eklipes/" target="_blank" rel="noopener noreferrer"><div></div></a>
+                    <a href="https://telegram.me/+z0YaFP5L5JIxNjc9" target="_blank" rel="noopener noreferrer"><div></div></a>
+                    <a href="https://chat.whatsapp.com/DKBGycoO00AEr2jOMBS0dr" target="_blank" rel="noopener noreferrer"><div></div></a>
                 </div>
                 <hr />
                 <div id='copyright'> &copy; Eklipes - 2024</div>

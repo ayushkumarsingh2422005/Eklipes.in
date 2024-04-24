@@ -62,25 +62,27 @@
     flex-direction: column;
     justify-content: space-around;
 }
-#social > div{
+#social > a > div{
     height: 50px;
     width: 50px;
     /* background-color: red; */
-    width: 100%;
+    /* width: 100%; */
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
 }
-#social > div:nth-child(1){
+#social > a:nth-child(1) > div{
     background-image: url('../../assets/Images/instagram.png');
 }
-#social > div:nth-child(2){
+#social > a:nth-child(2) > div{
     background-image: url('../../assets/Images/linkedin.png');
 }
-#social > div:nth-child(3){
+#social > a:nth-child(3) > div{
     background-image: url('../../assets/Images/telegram.png');
+    border-radius: 50%;
+    background-color: whitesmoke;
 }
-#social > div:nth-child(4){
+#social > a:nth-child(4) > div{
     background-image: url('../../assets/Images/whattsapp.png');
 }
 hr{
