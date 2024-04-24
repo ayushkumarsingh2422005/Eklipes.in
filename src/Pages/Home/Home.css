@@ -118,6 +118,10 @@ hr{
         bottom: 15vh;
     }
     #company_name > span{
-        font-size: small;
+        font-size: smaller;
+        /* line-height: -5px; */
     }
+    /* #company_name{
+        line-height: normal;
+    } */
 }
