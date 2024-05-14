@@ -3,7 +3,7 @@ on:
         branches:
             - main
         paths:
-            - 'dist/**'
+            - dist/**
 name: 🚀 Deploy website on push
 jobs:
   web-deploy:
