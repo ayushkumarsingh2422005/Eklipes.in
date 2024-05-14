@@ -57,14 +57,14 @@ jobs:
         username: dist@eklipes.in
         password: ${{ secrets.ftp_password }}
         local-dir: dist/
-        exclude: |
-          */.git
-          .env
-          package.json
-          postcss.config.js
-          tailwind.config.js
-          .gitignore
-          .github/**
+        # exclude: |
+        #   */.git
+        #   .env
+        #   package.json
+        #   postcss.config.js
+        #   tailwind.config.js
+        #   .gitignore
+        #   .github/**
 
     - name: 🧹 Clean up build files
       run: rm -rf build/
