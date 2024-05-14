@@ -58,5 +58,5 @@ jobs:
         password: ${{ secrets.ftp_password }}
         local-dir: dist/
 
-    - name: 🧹 Clean up build files
-      run: rm -rf dist/
+    # - name: 🧹 Clean up build files
+    #   run: rm -rf dist/
