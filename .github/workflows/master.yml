@@ -7,6 +7,9 @@ jobs:
   web-deploy:
     name: 🎉 Deploy
     runs-on: ubuntu-latest
+    defaults:
+        run:
+          working-directory: ./public
     steps:
     - name: 🚚 Get latest code
       uses: actions/checkout@v4
@@ -17,4 +20,4 @@ jobs:
         server: ftp.eklipes.in
         username: ayush@eklipes.in
         password: ${{ secrets.ftp_password }}
-        server-dir: /home/eklipesi/public_html/
+        server-dir: public_html/
