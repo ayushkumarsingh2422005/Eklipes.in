@@ -42,10 +42,10 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: 16
-        cache: 'yarn'
+        cache: 'npm'
 
     - name: 🔨 Install dependencies and build the app
-      run: yarn && yarn build
+      run: npm install && npm run build
 
     # - name: 📂 Copy "api" folder to "dist/api/"
     #   run: cp -r api dist/
